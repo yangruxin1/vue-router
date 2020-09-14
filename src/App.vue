@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
+		<!-- 切换路由 -->
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link to="/news">新闻</router-link>
     </div>
+	<!-- 用于展示当前被激活的路由所对应的组件 -->
     <router-view/>
   </div>
 </template>

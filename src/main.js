@@ -5,6 +5,6 @@ import router from './router'
 Vue.config.productionTip = false
 
 new Vue({
-  router,
+  router,//将路由对象绑定到vue实例上
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app')//相当于el:"#app"
